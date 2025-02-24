@@ -157,4 +157,30 @@ table {
   align-items: center;
   font-size: 24px;
 }
+
+.section1_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.508);
+  height: 70vh;
+  width: 80%;
+  margin-top: 10%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-self: center;
+  padding: 2vh;
+}
+
+.card {
+  display: flex;
+  border-style: solid;
+  text-align: center;
+  padding: 2vh;
+}
+
+img {
+  margin: auto;
+}
+
 /*index section*/
