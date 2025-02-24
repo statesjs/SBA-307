@@ -1,0 +1,160 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  background-image: url("imgs/bg.webp");
+}
+
+a {
+  text-decoration: none;
+}
+.signin,
+.signup {
+  margin-top: 10%;
+  width: 400px;
+  height: 400px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(166, 166, 166);
+}
+
+.logo_icon {
+  height: 30px;
+  width: 30px;
+}
+
+.enter_icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin-top: 1%;
+}
+
+.enter_icon:hover {
+  transform: scale(1.5);
+}
+
+.logo_icon:hover {
+  transition: 0.9s;
+  transform: rotate(360deg);
+}
+
+.section1 {
+  display: flex;
+
+  justify-content: center;
+}
+
+.parallax-section {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1 {
+  background-image: url("https://via.placeholder.com/1920x1080");
+  height: 70vh;
+  padding-left: 6vh;
+  padding-right: 6vh;
+}
+
+.parallax-2 {
+  background-image: url("https://via.placeholder.com/1920x1080/aaaaaa");
+  height: 70vh;
+}
+
+.content-section {
+  height: 50vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.table {
+  padding: auto;
+  position: relative;
+  width: 60vh;
+  float: right;
+}
+/* hero text */
+h1 {
+  color: white;
+  font-weight: bolder;
+}
+.hero_text {
+  margin-top: 10vh;
+}
+
+.gymgif {
+  height: 40vh;
+  width: 30vh;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.someclass {
+  clear: both;
+}
+
+.button1 {
+  border-radius: 10px;
+  background-color: rgb(1, 1, 164);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 30vh;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+  background-color: rgb(71, 71, 71) !important;
+}
+
+.btn {
+  border-color: black;
+}
+
+.content-section-text {
+  color: black;
+  font-weight: bolder;
+}
+
+table {
+  margin-left: 5vh;
+}
+
+.content-section2 {
+  overflow: hidden;
+  background: rgb(141, 70, 252);
+  background: radial-gradient(
+    circle,
+    rgba(141, 70, 252, 1) 6%,
+    rgba(25, 37, 96, 1) 95%
+  );
+
+  height: 50vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+/*index section*/
