@@ -183,4 +183,26 @@ img {
   margin: auto;
 }
 
+.section1_4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.508);
+  height: 70vh;
+  width: 80%;
+  margin-top: 10%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-self: center;
+  padding: 2vh;
+}
+
+.tier1,
+.tier2,
+.tier3 {
+  border-style: solid;
+  width: 100%;
+  height: 33%;
+  justify-content: center;
+}
 /*index section*/
